@@ -1,18 +1,24 @@
-import Vue from 'vue';
+import Vue from 'vue'
 
-import { library } from '@fortawesome/fontawesome-svg-core';
+import { library } from '@fortawesome/fontawesome-svg-core'
 import {
-  faTrash, faLink, faListUl, faRandom, faUndo, faStar, faEnvelope,
-} from '@fortawesome/free-solid-svg-icons';
+  faTrash,
+  faLink,
+  faListUl,
+  faRandom,
+  faUndo,
+  faStar,
+  faEnvelope
+} from '@fortawesome/free-solid-svg-icons'
 
-import App from './App.vue';
-import router from './router';
+import App from './App.vue'
+import router from './router'
 
-library.add(faTrash, faLink, faListUl, faRandom, faUndo, faStar, faEnvelope);
+library.add(faTrash, faLink, faListUl, faRandom, faUndo, faStar, faEnvelope)
 
-Vue.config.productionTip = false;
+Vue.config.productionTip = false
 
 new Vue({
   router,
-  render: (h) => h(App),
-}).$mount('#app');
+  render: (h) => h(App)
+}).$mount('#app')
