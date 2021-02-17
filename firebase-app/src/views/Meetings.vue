@@ -42,7 +42,7 @@
             <div
               class="list-group-item d-flex"
               v-for="item in meetings"
-              :key="item.id"
+              :key="item.ID"
             >
               <section
                 class="btn-group align-self-center"

@@ -53,7 +53,7 @@ export default {
   },
   methods: {
     handleCheckIn() {
-      // console.log(this.$route.params.meetingID)
+      console.log(this.$route.params.meetingID)
       this.displayName = null
       this.email = null
     }
