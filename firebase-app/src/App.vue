@@ -52,7 +52,7 @@ export default {
         .doc(payload)
         .delete()
     },
-    chekcIn(payload) {
+    checkIn(payload) {
       db.collection('users')
         .doc(payload.userID)
         .collection('meetings')

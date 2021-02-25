@@ -46,7 +46,6 @@
 
 <script>
 export default {
-  name: 'CheckIn',
   data() {
     return {
       displayName: null,
@@ -59,7 +58,7 @@ export default {
       this.$emit('checkIn', {
         userID: this.$route.params.userID,
         meetingID: this.$route.params.meetingID,
-        displayName: this.$route.params.displayName,
+        displayName: this.displayName,
         email: this.email
       })
       // console.log(this.$route.params.meetingID)
